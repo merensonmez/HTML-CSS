@@ -5,12 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sonmez Game</title>
 	<link rel="icon" href="https://icons.iconarchive.com/icons/papirus-team/papirus-places/72/folder-red-games-icon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
 </head>
 <body>
+    <div class="wrapper">
+        <div class="card-switch">
+            <label class="switch">
+               <input type="checkbox" class="toggle">
+               <span class="slider"></span>
+               <span class="card-side"></span>
+               <div class="flip-card__inner">
+                  <div class="flip-card__front">
+                     <div class="title">Log in</div>
+                     <form class="flip-card__form" action="">
+                        <input class="flip-card__input" name="email" placeholder="Email" type="email">
+                        <input class="flip-card__input" name="password" placeholder="Password" type="password">
+                        <button class="flip-card__btn">Let`s go!</button>
+                     </form>
+                  </div>
+                  <div class="flip-card__back">
+                     <div class="title">Sign up</div>
+                     <form class="flip-card__form" action="">
+                        <input class="flip-card__input" placeholder="Name" type="name">
+                        <input class="flip-card__input" name="email" placeholder="Email" type="email">
+                        <input class="flip-card__input" name="password" placeholder="Password" type="password">
+                        <button class="flip-card__btn">Confirm!</button>
+                     </form>
+                  </div>
+               </div>
+            </label>
+        </div>   
+   </div>
     <header>
     <h1>Sonmez Game</h1>
+    
     <nav>
         <ul>
             <li><a href="#rpg">RPG Games</a></li>
@@ -106,6 +135,18 @@
             <p>In Smite, players control a god, goddess or other mythological figure and take part in team-based combat, using their abilities and tactics against other player-controlled gods and non-player-controlled minions.</p>
         </div>
 		
+		<div class="game">
+            <img src="https://www.gamespedition.com/media/k2/items/cache/12ac5f9cd9a36778268af59027f19f9e_L.jpg" alt="Moba Game">
+            <h3>Heroes of the Storm</h3>
+            <p>Heroes of the Storm is a crossover multiplayer online battle arena video game developed and published by Blizzard Entertainment. Announced at BlizzCon 2010, it was released on June 2, 2015 for macOS and Windows.[1][2] The game features various characters from Blizzard's franchises as playable heroes, as well as different battlegrounds based on Warcraft, Diablo, StarCraft, and Overwatch universes</p>
+        </div>
+		
+		<div class="game">
+            <img src="https://cdn7.idcgames.com/storage/image/1377/game_home_video_bg_embebed/default.jpg" alt="Moba Game">
+            <h3>Smite</h3>
+            <p>In Smite, players control a god, goddess or other mythological figure and take part in team-based combat, using their abilities and tactics against other player-controlled gods and non-player-controlled minions.</p>
+        </div>
+		
     </section>
 
     <section id="contact">
@@ -124,5 +165,6 @@
     <footer>
         <p>&copy; 2024 Sonmez Game. All rights reserved.</p>
     </footer>
+	
 </body>
 </html>
